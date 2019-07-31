@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.bxa.config.ConfigApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.875 s - in com.bxa.config.ConfigApplicationTests

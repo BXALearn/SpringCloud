@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c498159-d4d3-4627-a24b-5fb69ac305e2" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1587042681">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="1-SNAPSHOT" value="1" />
+          <entry key="class" value="1" />
+          <entry key="java" value="13" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="3" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="13" />
+          <entry key="Properties" value="1" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="3" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="602" />
+          <entry key="xml" value="78" />
+          <entry key="yml" value="101" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="602" />
+          <entry key="XML" value="78" />
+          <entry key="YAML" value="101" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/filter/TokenFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/filter/AuthBuyerFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/config/CorsConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-16">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/filter/AuthSellerFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/filter/RateLimitFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/ApiGatewayApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>imoo</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/bxa/apigateway/ApiGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bxa/apigateway/ZuulConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bxa/apigateway/filter/addResponseHeaderFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bxa/apigateway/exception/RateLimitException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bxa/apigateway/filter/RateLimitFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bxa/apigateway/filter/TokenFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bxa/apigateway/utils/CookieUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bxa/apigateway/constant/CookieConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bxa/apigateway/filter/AuthBuyerFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bxa/apigateway/filter/AuthFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bxa/apigateway/filter/AuthSellerFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bxa/apigateway/config/CorsConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\tools\maven\apache-maven-3.6.0Reponsitory" />
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="api-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="api-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="api-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="api-gateway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-gateway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-gateway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-gateway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-gateway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="apigateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-gateway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="apigateway" type="462c0819:PsiDirectoryNode" />
+              <item name="constant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-gateway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="apigateway" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564398190063" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bxa.apigateway.filter" />
+      <recent name="com.bxa.apigateway.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ProjectOS\SpringCloud\01\api-gateway\src\main\java\com\bxa\apigateway" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bxa.apigateway.ApiGatewayApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=9000" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c498159-d4d3-4627-a24b-5fb69ac305e2" name="Default Changelist" comment="" />
+      <created>1564210982030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564210982030</updated>
+      <workItem from="1564210984692" duration="2931000" />
+      <workItem from="1564214037841" duration="393000" />
+      <workItem from="1564214466402" duration="2045000" />
+      <workItem from="1564216546940" duration="2356000" />
+      <workItem from="1564227247691" duration="5240000" />
+      <workItem from="1564283193135" duration="1227000" />
+      <workItem from="1564297879556" duration="3130000" />
+      <workItem from="1564313667402" duration="596000" />
+      <workItem from="1564367108660" duration="1537000" />
+      <workItem from="1564390719075" duration="4612000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24067000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17761394" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34560907" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Bean Validation" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32238606" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="571" selection-start-line="571" selection-end-line="571" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.bxa:api-gateway:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.bxa:api-gateway:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.bxa:api-gateway:0.0.1-SNAPSHOT</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-config:jar:2.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.1.2.RELEASE/org.springframework.security:spring-security-crypto:jar:5.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:2.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.60</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.60/org.bouncycastle:bcprov-jdk15on:jar:1.60</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE/org.springframework:spring-aop:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE/org.springframework:spring-aop:jar:5.1.8.RELEASE/org.springframework:spring-beans:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE/org.aspectj:aspectjweaver:jar:1.9.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/org.codehaus.jettison:jettison:jar:1.3.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/commons-jxpath:commons-jxpath:jar:1.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/joda-time:joda-time:jar:2.10.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/org.antlr:stringtemplate:jar:3.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.guava:guava:jar:14.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.code.gson:gson:jar:2.8.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/org.apache.commons:commons-math:jar:2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.netflix.archaius:archaius-core:jar:0.7.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.guava:guava:jar:16.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/javax.ws.rs:jsr311-api:jar:1.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.netflix.servo:servo-core:jar:0.12.21</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.netflix.servo:servo-core:jar:0.12.21/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.sun.jersey:jersey-core:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.sun.jersey:jersey-client:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/org.apache.httpcomponents:httpclient:jar:4.5.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/org.apache.httpcomponents:httpclient:jar:4.5.9/org.apache.httpcomponents:httpcore:jar:4.4.11</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/org.apache.httpcomponents:httpclient:jar:4.5.9/commons-codec:commons-codec:jar:1.11</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.google.inject:guice:jar:4.1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.google.inject:guice:jar:4.1.0/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.google.inject:guice:jar:4.1.0/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:16.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.github.vlsi.compactmap:compactmap:jar:1.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.github.vlsi.compactmap:compactmap:jar:1.2.1/com.github.andrewoma.dexx:dexx-collections:jar:0.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.fasterxml.jackson.core:jackson-core:jar:2.9.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.12/com.fasterxml.jackson.core:jackson-databind:jar:2.9.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.12</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.12/com.fasterxml.woodstox:woodstox-core:jar:5.0.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.12/com.fasterxml.woodstox:woodstox-core:jar:5.0.3/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.1.2.RELEASE/commons-configuration:commons-configuration:jar:1.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.1.2.RELEASE/commons-configuration:commons-configuration:jar:1.8/commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0/io.reactivex:rxnetty-servo:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0/com.google.guava:guava:jar:16.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.hystrix:hystrix-core:jar:1.5.18</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.hystrix:hystrix-core:jar:1.5.18/org.hdrhistogram:HdrHistogram:jar:2.1.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/io.reactivex:rxnetty:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.google.guava:guava:jar:16.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/com.google.guava:guava:jar:16.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0/com.google.guava:guava:jar:16.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.2.RELEASE/io.reactivex:rxjava:jar:1.3.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.3.0/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10/xmlpull:xmlpull:jar:1.1.3.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.2.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10/xpp3:xpp3_min:jar:1.1.4c</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot:jar:2.1.6.RELEASE/org.springframework:spring-context:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot:jar:2.1.6.RELEASE/org.springframework:spring-context:jar:5.1.8.RELEASE/org.springframework:spring-expression:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2/org.apache.logging.log4j:log4j-api:jar:2.11.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.26</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.yaml:snakeyaml:jar:1.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/junit:junit:jar:4.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.assertj:assertj-core:jar:3.11.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.mockito:mockito-core:jar:2.23.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy:jar:1.9.13</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy-agent:jar:1.9.13</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.mockito:mockito-core:jar:2.23.4/org.objenesis:objenesis:jar:2.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework:spring-core:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework:spring-core:jar:5.1.8.RELEASE/org.springframework:spring-jcl:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework:spring-test:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.xmlunit:xmlunit-core:jar:2.6.2</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.09829554856859175" x="3012.0" y="810.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/ZuulConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-start-column="2" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/exception/RateLimitException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/ApiGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/filter/RateLimitFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/utils/CookieUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/constant/RedisConstant.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/constant/CookieConstant.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/filter/addResponseHeaderFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/filter/AuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="66" column="32" lean-forward="true" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/filter/TokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/filter/AuthSellerFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/filter/AuthBuyerFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bxa/apigateway/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

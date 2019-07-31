@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/bxa5120/config-repo
+          username: 15732677968@163.com
+          password: bxa8880198
+          basedir: /ProjectOS/SpringCloud/01/config/basedir
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  endpoints:
+    web:
+      expose: "*"
