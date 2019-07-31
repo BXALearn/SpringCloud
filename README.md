@@ -7,7 +7,7 @@
   CenOS7+Docker RabbitMQ MySQL+Redis  
    
 # 应用的技术
-  SpringCloud Eureka
+  + SpringCloud Eureka
   + SpringCloud Bus
   + SpringCloud Stream
   + SpringCloud Zuul
