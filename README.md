@@ -8,11 +8,11 @@
    
 # 应用的技术
   SpringCloud Eureka
-  SpringCloud Bus
-  SpringCloud Stream
-  SpringCloud Zuul
-  SpringCloud Hystrix
-  SpringCloud Sleuth
+  + SpringCloud Bus
+  + SpringCloud Stream
+  + SpringCloud Zuul
+  + SpringCloud Hystrix
+  + SpringCloud Sleuth
 
 # 其它配置
   建表语句在CreateTable.sql文件中
