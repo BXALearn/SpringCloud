@@ -6,13 +6,15 @@
 # 环境
   CenOS7+Docker RabbitMQ MySQL+Redis  
    
-# 应用的技术
-  + SpringCloud Eureka
-  + SpringCloud Bus
-  + SpringCloud Stream
-  + SpringCloud Zuul
-  + SpringCloud Hystrix
-  + SpringCloud Sleuth
+
+应用技术
+------
+- [x] SpringCloud Eureka
+- [x] SpringCloud Bus
+- [x] SpringCloud Stream
+- [x] SpringCloud Zuul
+- [x] SpringCloud Hystrix
+- [x] SpringCloud Sleuth
 
 # 其它配置
   建表语句在CreateTable.sql文件中
