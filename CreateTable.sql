@@ -5,13 +5,13 @@ CREATE TABLE `order_detail` (
   `order_id` varchar(32) NOT NULL,
   
    `product_id` varchar(32) NOT NULL,
-  `product_name` varchar(64) DEFAULT NULL COMMENT 'ÉÌÆ·Ãû×Ö',
+  `product_name` varchar(64) DEFAULT NULL COMMENT 'å•†å“åå­—',
   
-   `product_price` decimal(8,2) NOT NULL COMMENT 'µ±Ç°¼Û¸ñ£¬µ¥Î»·Ö',
+   `product_price` decimal(8,2) NOT NULL COMMENT 'å½“å‰ä»·æ ¼ï¼Œå•ä½åˆ†',
   
-   `product_quantity` int(20) DEFAULT NULL COMMENT 'ÊıÁ¿',
+   `product_quantity` int(20) DEFAULT NULL COMMENT 'æ•°é‡',
   
-   `product_icon` varchar(512) DEFAULT NULL COMMENT 'Ğ¡Í¼',
+   `product_icon` varchar(512) DEFAULT NULL COMMENT 'å°å›¾',
   
    `create_time` datetime DEFAULT CURRENT_TIMESTAMP,
   
@@ -19,33 +19,33 @@ CREATE TABLE `order_detail` (
   
    KEY `idx_order_id` (`order_id`) USING BTREE
 ) 
-ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='¶©µ¥ÉÌÆ·';
+ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='è®¢å•å•†å“';
 
 CREATE TABLE `order_master` (
  
     `order_id` varchar(32) NOT NULL,
  
-    `buyer_name` varchar(32) NOT NULL COMMENT 'Âò¼ÒÃû×Ö',
+    `buyer_name` varchar(32) NOT NULL COMMENT 'ä¹°å®¶åå­—',
 
-    `buyer_phone` varchar(32) NOT NULL COMMENT 'Âò¼Òµç»°\r\n',
+    `buyer_phone` varchar(32) NOT NULL COMMENT 'ä¹°å®¶ç”µè¯',
  
-    `buyer_address` varchar(128) NOT NULL COMMENT 'Âò¼ÒµØÖ·',
+    `buyer_address` varchar(128) NOT NULL COMMENT 'ä¹°å®¶åœ°å€',
  
-    `buyer_openid` varchar(64) NOT NULL COMMENT 'Âò¼ÒÎ¢ĞÅopenid\r\n',
+    `buyer_openid` varchar(64) NOT NULL COMMENT 'ä¹°å®¶å¾®ä¿¡openid',
  
-    `order_amount` decimal(8,2) NOT NULL COMMENT '¶©µ¥×Ü½ğ¶î\r\n',
+    `order_amount` decimal(8,2) NOT NULL COMMENT 'è®¢å•æ€»é‡‘é¢',
   
-    `order_status` tinyint(3) DEFAULT '0' COMMENT '¶©µ¥×´Ì¬£¬Ä¬ÈÏÎªĞÂÏÂµ¥''\r\n',
+    `order_status` tinyint(3) DEFAULT '0' COMMENT 'è®¢å•çŠ¶æ€ï¼Œé»˜è®¤ä¸ºæ–°ä¸‹å•''',
  
-    `pay_status` tinyint(3) DEFAULT '0' COMMENT 'Ö§¸¶×´Ì¬£¬Ä¬ÈÏÎ´Ö§¸¶''\r\n',
+    `pay_status` tinyint(3) DEFAULT '0' COMMENT 'æ”¯ä»˜çŠ¶æ€ï¼Œé»˜è®¤æœªæ”¯ä»˜''',
   
-    `create_time` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) COMMENT '´´½¨Ê±¼ä',
+    `create_time` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) COMMENT 'åˆ›å»ºæ—¶é—´',
   
-    `update_time` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6) COMMENT '¸üĞÂÊ±¼ä',
+    `update_time` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6) COMMENT 'æ›´æ–°æ—¶é—´',
   
     PRIMARY KEY (`order_id`) USING BTREE,
-  KEY `idx_buyer_openid` (`buyer_openid`) USING BTREE COMMENT 'Âò¼ÒÎ¢ĞÅopenid'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='¶©µ¥±í';
+  KEY `idx_buyer_openid` (`buyer_openid`) USING BTREE COMMENT 'ä¹°å®¶å¾®ä¿¡openid'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='è®¢å•è¡¨';
 
 CREATE TABLE `product_category` (
   
@@ -53,13 +53,13 @@ CREATE TABLE `product_category` (
   
    `category_name` varchar(64) DEFAULT NULL,
   
-   `category_type` int(11) DEFAULT NULL COMMENT 'ÀàÄ¿±àºÅ',
+   `category_type` int(11) DEFAULT NULL COMMENT 'ç±»ç›®ç¼–å·',
   
    `update_time` datetime(6) DEFAULT NULL,
   
    `create_time` datetime(6) DEFAULT NULL
 ) 
-ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='Àà±ğ±í';
+ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='ç±»åˆ«è¡¨';
 
 CREATE TABLE `product_info` (
   
@@ -67,24 +67,24 @@ CREATE TABLE `product_info` (
   
    `product_name` varchar(64) NOT NULL,
   
-   `product_price` decimal(8,2) NOT NULL COMMENT 'µ¥¼Û',
+   `product_price` decimal(8,2) NOT NULL COMMENT 'å•ä»·',
   
-   `product_stock` tinyint(10) NOT NULL COMMENT '¿â´æ',
+   `product_stock` tinyint(10) NOT NULL COMMENT 'åº“å­˜',
   
    `product_description` varchar(64) DEFAULT NULL,
   
    `product_icon` varchar(512) DEFAULT NULL,
   
-   `product_status` tinyint(3) DEFAULT '0' COMMENT 'ÉÌÆ·×´Ì¬ 0Õı³£1ÏÂ¼Ü',
+   `product_status` tinyint(3) DEFAULT '0' COMMENT 'å•†å“çŠ¶æ€ 0æ­£å¸¸1ä¸‹æ¶',
   
-   `category_type` tinyint(11) DEFAULT '0' COMMENT 'ÀàĞÍ±àºÅ',
+   `category_type` tinyint(11) DEFAULT '0' COMMENT 'ç±»å‹ç¼–å·',
   
    `create_time` datetime(6) DEFAULT NULL,
   
    `update_time` datetime(6) DEFAULT NULL,
   PRIMARY KEY (`product_id`)
 ) 
-ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='ÉÌÆ·±í';
+ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='å•†å“è¡¨';
 
 CREATE TABLE `user_info` (
   
@@ -94,12 +94,12 @@ CREATE TABLE `user_info` (
   
    `password` varchar(32) DEFAULT '',
   
-   `openid` varchar(64) DEFAULT '' COMMENT 'Î¢ĞÅopenid',
+   `openid` varchar(64) DEFAULT '' COMMENT 'å¾®ä¿¡openid',
   
-   `role` tinyint(1) NOT NULL COMMENT '1Âò¼Ò2Âô¼Ò',
+   `role` tinyint(1) NOT NULL COMMENT '1ä¹°å®¶2å–å®¶',
   
-   `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '´´½¨Ê±¼ä',
+   `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT 'åˆ›å»ºæ—¶é—´',
   
-   `update_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT 'ĞŞ¸ÄÊ±¼ä',
+   `update_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT 'ä¿®æ”¹æ—¶é—´',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='ÓÃ»§±í';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='ç”¨æˆ·è¡¨';
